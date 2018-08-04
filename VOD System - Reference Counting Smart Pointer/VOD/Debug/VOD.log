@@ -1,0 +1,52 @@
+﻿Build started 06/05/2017 15:03:06.
+     1>Project "C:\Users\Roni\documents\visual studio 2013\Projects\VOD\VOD\VOD.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Client.cpp ClientService.cpp Movie.cpp PlayerService.cpp Series.cpp SimulationService.cpp ViewAble.cpp main.cpp
+         main.cpp
+         ViewAble.cpp
+         SimulationService.cpp
+         Series.cpp
+         PlayerService.cpp
+         Movie.cpp
+         ClientService.cpp
+         Client.cpp
+     1>c:\users\roni\documents\visual studio 2013\projects\vod\vod\rci.h(42): warning C4150: deletion of pointer to incomplete type 'ViewAble'; no destructor called
+                 c:\users\roni\documents\visual studio 2013\projects\vod\vod\client.h(8) : see declaration of 'ViewAble'
+                 c:\users\roni\documents\visual studio 2013\projects\vod\vod\rci.h(40) : while compiling class template member function 'void RCI<T>::__DestroyRef(void)'
+                 with
+                 [
+                     T=ViewAble
+                 ]
+                 c:\users\roni\documents\visual studio 2013\projects\vod\vod\sp.h(31) : see reference to function template instantiation 'void RCI<T>::__DestroyRef(void)' being compiled
+                 with
+                 [
+                     T=ViewAble
+                 ]
+                 c:\users\roni\documents\visual studio 2013\projects\vod\vod\sp.h(12) : see reference to class template instantiation 'RCI<T>' being compiled
+                 with
+                 [
+                     T=ViewAble
+                 ]
+                 c:\users\roni\documents\visual studio 2013\projects\vod\vod\sp.h(42) : see reference to class template instantiation 'SP<ViewAble>::__RefCounter' being compiled
+                 c:\users\roni\documents\visual studio 2013\projects\vod\vod\sp.h(37) : while compiling class template member function 'void SP<ViewAble>::Assign(void *)'
+                 c:\users\roni\documents\visual studio 2013\projects\vod\vod\sp.h(73) : see reference to function template instantiation 'void SP<ViewAble>::Assign(void *)' being compiled
+                 c:\users\roni\documents\visual studio 2013\projects\vod\vod\client.h(17) : see reference to class template instantiation 'SP<ViewAble>' being compiled
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Roni\documents\visual studio 2013\Projects\VOD\Debug\VOD.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Roni\documents\visual studio 2013\Projects\VOD\Debug\VOD.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Roni\documents\visual studio 2013\Projects\VOD\Debug\VOD.lib" /MACHINE:X86 Debug\Client.obj
+         Debug\ClientService.obj
+         Debug\main.obj
+         Debug\Movie.obj
+         Debug\PlayerService.obj
+         Debug\RC.obj
+         Debug\RCI.obj
+         Debug\Series.obj
+         Debug\SimulationService.obj
+         Debug\SP.obj
+         Debug\ViewAble.obj
+         VOD.vcxproj -> C:\Users\Roni\documents\visual studio 2013\Projects\VOD\Debug\VOD.exe
+     1>Done Building Project "C:\Users\Roni\documents\visual studio 2013\Projects\VOD\VOD\VOD.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.13
