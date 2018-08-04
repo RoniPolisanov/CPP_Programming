@@ -1,0 +1,38 @@
+#LINES WITH # WILL BE SKIPPED, THEY ARE HERE FOR YOU AS COMMENTS
+#EVERY ENTRY IS A PLAYER, FOLLOWED BY UP TO 5 CARDS. IF CARDS ARE MISSING, YOU SHOULD DEFAULTY CREATE NEW ONES TO COMPLETE THE CAP.
+
+#ENTRIES WITH P WILL SIGNIFY A PLAYER
+#P(for player!) ,ID, NAME, WINS, LOSSES, POSX:POSY
+P,101,Nathan,3,3,2:2
+
+#CARD ENTRY : NAME, VAL, COLOUR
+C, "Archer",5,Green
+C, "Swordsman",3,Red
+C, "Lucky Swordsman",6,Orange
+C, "Drunk Archer",1,Purple
+C, "MopMan",10,Blue
+
+P,222,Bob,0,1,1:0
+C, "Horseman",8,Green
+C, "Manhorse",4,Orange
+C, "Drunk Archer",1,Orange
+C, "Drunk Archer",1,Purple
+C, "Drunk Archer",1,Purple
+
+
+P,600,Cory,5,6,0:0
+C, "Swordsman",3,Green
+C, "Swordsman",6,Blue
+
+
+P,424,Alice,10,0,10:10
+C, "Mad Hatter",10,Green
+C, "Annoyed Rabbit",10,Orange
+C, "The Brothers T",10,Orange
+
+
+
+
+
+
+

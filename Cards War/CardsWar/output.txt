@@ -1,0 +1,64 @@
+
+PLAYER ID: 222 MOVE TO: 2:3
+
+PLAYER ID: 222 MOVE TO: 2:4
+
+Player name: Alice
+ID: 424
+Wins: 10
+Losses: 0
+POSX: 10
+POSY: 10
+Vacant Moves: 0
+Player Card's:
+
+Card name: Mad Hatter
+value: 10
+color: 1
+
+Card name: Annoyed Rabbit
+value: 10
+color: 4
+
+Card name: The Brothers T
+value: 10
+color: 4
+
+Card name: Pimp
+value: 0
+color: 0
+
+Card name: Pimp
+value: 0
+color: 0
+
+Player name: Cory
+ID: 600
+Wins: 5
+Losses: 6
+POSX: 0
+POSY: 0
+Vacant Moves: 0
+Player Card's:
+
+Card name: Swordsman
+value: 3
+color: 1
+
+Card name: Swordsman
+value: 6
+color: 2
+
+Card name: Pimp
+value: 0
+color: 0
+
+Card name: Pimp
+value: 0
+color: 0
+
+Card name: Pimp
+value: 0
+color: 0
+
+PLAYER ID: 600 ATTACKING PLAYER ID: 222 WITH CARD INDEX: 0
