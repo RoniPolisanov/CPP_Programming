@@ -1,4 +1,4 @@
-# Welcome to my c++ projects!
+# Welcome to my c++ projects
 
 ### Cards War
 
